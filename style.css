@@ -1,0 +1,355 @@
+body{
+    font-family: system-ui;
+    padding: 0;
+    margin-top: 100vh;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-image: url(/images/sunset-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.foot{
+    background-color: #130C58;
+    color: #CFCEDC;
+    margin-bottom: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.coding{
+    display: inline;
+    vertical-align: middle;
+    font-weight: 400;
+    margin-left:-15px ;
+}
+
+img{
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 18px;
+    transition:  opacity 0.15s;
+}
+
+img:hover{
+    opacity: 0.8;
+    width: 30px;
+}
+
+img:active{
+    width: 25px;
+    opacity: 0.5;
+}
+
+.slack{
+    margin-left: -15px;
+}
+
+
+hr{
+    border-top: 1px grey;
+}
+
+li{
+    list-style: none;
+    line-height: 20px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 17px;
+    border-bottom: 2px solid #CFCEDC;
+    width: 30px;
+}
+
+.content{
+    font-size: 13px;
+}
+
+.email{
+    background-color: transparent;
+    color: #CFCEDC;
+    border-color: #CFCEDC;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding:8px 91px 8px 8px;
+}
+
+::placeholder{
+    color: #CFCEDC;
+}
+
+.subscribe{
+    margin-top: 5px;
+    background-color: #CFCEDC;
+    color: #130C58;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 100px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.subscribe:active{
+    background-color: grey;
+    color: black;
+}
+
+.last{
+    height: 8vh;
+    background-color: #0D0840;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+span{
+    margin-right: 10px;
+}
+
+a{
+    color: #CFCEDC;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 13px;
+}
+
+a:active{
+    color: magenta;
+}
+ 
+@media screen and (max-width:1700px){
+                        .foot{
+                                .menu{
+                                    display: flex;
+                                    flex-direction: row;
+                                    place-content: center;
+                                    place-content: space-between;
+                                    padding: 10px 100px;
+                                }
+                                .info{
+                                        padding: 50px 90px 50px 90px;
+                                        display: grid;
+                                        place-content: center;
+                                        grid-template-columns: repeat(5,1fr);
+                                            grid-template-rows: repeat(1, 1fr);
+                                            grid-template-areas: 
+                                            'one two three four five';
+                                            gap: 10px;
+                                     }        
+                                        
+                                        .one{
+                                            grid-area: one;
+                                        }
+                                        .two{
+                                            grid-area: two;
+                                        }
+                                        .three{
+                                            grid-area: three;
+                                        }
+                                        .four{
+                                           grid-area: four;
+                                        }
+                                        .five{
+                                            grid-area: five;
+                                        }
+                                        .last{
+                                            padding-right: 90px;
+                                            padding-left: 90px;
+                                        }
+                                
+                                }
+                            }         
+                            
+                            @media screen and (max-width:1200px){
+                                .foot{
+                                        .menu{
+                                            display: flex;
+                                            flex-direction: row;
+                                            place-content: center;
+                                            place-content: space-between;
+                                            padding: 10px 100px;
+                                        }
+                                        .info{
+                                                padding: 50px 90px 50px 90px;
+                                                display: grid;
+                                                place-content: center;
+                                                grid-template-columns: repeat(5,1fr);
+                                                    grid-template-rows: repeat(1, 1fr);
+                                                    grid-template-areas: 
+                                                    'one two three four five';
+                                                    gap: 10px;
+                                             }        
+                                                
+                                                .one{
+                                                    grid-area: one;
+                                                }
+                                                .two{
+                                                    grid-area: two;
+                                                }
+                                                .three{
+                                                    grid-area: three;
+                                                }
+                                                .four{
+                                                   grid-area: four;
+                                                }
+                                                .five{
+                                                    grid-area: five;
+                                                }
+                                                .last{
+                                                    padding-right: 90px;
+                                                    padding-left: 90px;
+                                                }
+                                        
+                                        }
+                                    } 
+
+                            @media screen and (max-width:1000px){
+                                .foot{
+                                        .menu{
+                                            display: flex;
+                                            /* flex-direction: row; */
+                                            place-content: center;
+                                                    place-content: space-between;
+                                                    padding: 10px 100px;
+                                        }
+                                        .info{
+                                                padding: 50px 90px 50px 90px;
+                                                display: grid;
+                                                place-content: center;
+                                                grid-template-columns: repeat(4,1fr);
+                                                    grid-template-rows: repeat(2, 1fr);
+                                                    grid-template-areas: 
+                                                    'one two three four'
+                                                    'five five five five';
+                                                    gap: 10px;
+                                        }
+                                                
+                                                .one{
+                                                    grid-area: one;
+                                                }
+                                                .two{
+                                                    grid-area: two;
+                                                }
+                                                .three{
+                                                    grid-area: three;
+                                                }
+                                                .four{
+                                                   grid-area: four;
+                                                }
+                                                .five{
+                                                    grid-area: five;
+                                                }
+
+                                                .last{
+                                                    padding-right: 90px;
+                                                    padding-left: 90px;
+                                                }
+                                            
+                                        }
+                                    }
+
+                            @media screen and (max-width:800px){
+                                .foot{
+                                    .menu{
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    .info{
+                                            padding: 20px 90px 20px 130px;
+                                            display: grid;
+                                            place-content: center;
+                                            grid-template-columns: repeat(3,1fr);
+                                                grid-template-rows: repeat(3, 1fr);
+                                                grid-template-areas: 
+                                                'one two three'
+                                                'four four four'
+                                                'five five five';
+                                                gap: 10px;
+                                    }
+                                            
+                                            .one{
+                                                grid-area: one;
+                                            }
+                                            .two{
+                                                grid-area: two;
+                                            }
+                                            .three{
+                                                grid-area: three;
+                                            }
+                                            .four{
+                                               grid-area: four;
+                                            }
+                                            .five{
+                                                grid-area: five;
+                                            }
+                                            .last{
+                                                display: none;
+                                            }
+                                        
+                                    }
+                                }
+                                @media screen and (max-width:600px){
+                                    .foot{
+                                        .menu{
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            flex-direction: column;
+                                            padding: 20px;
+                                        }
+                                
+                                    .info{
+                                        padding: 20px;
+                                        display: grid;
+                                        place-items: center;
+                                        grid-template-columns: repeat(2,20vh);
+                                        grid-template-rows: repeat(3, 20vh);
+                                        grid-template-areas: 
+                                        'one two'
+                                        'three four'
+                                        'five five';
+                                        gap: 10px;
+                                    }
+                                    
+                                    .one{
+                                        grid-area: one;
+                                    }
+                                    .two{
+                                        grid-area: two;
+                                    }
+                                    .three{
+                                        grid-area: three;
+                                    }
+                                    .four{
+                                       grid-area: four;
+                                    }
+                                    .five{
+                                        grid-area: five;
+                                        padding-left: 50px;
+                                    }
+                                    .last{
+                                        display: none;
+                                    }
+                                }
+                                   
+                                }
