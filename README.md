@@ -1,8 +1,8 @@
-# My Webpage Project
+# My Webpage of footer
 
 Welcome to the repository for my fantastic webpage! This project showcases a website created using HTML and CSS, featuring advanced layout techniques such as Flexbox and CSS Grid. Additionally, pseudo-classes and HTML semantics have been employed for a more robust and semantic structure.
 
-![Website screenshot](https://github.com/Abubakar-Tamboli/abufooter/blob/main/images/abu-footer.png)
+![Website Screenshot](https://github.com/Abubakar-Tamboli/abufooter/blob/main/images/abu-footer.png)
 
 ## Table of Contents
 - [Features](#features)
