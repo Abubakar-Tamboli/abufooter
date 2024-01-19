@@ -39,12 +39,11 @@ img{
     width: 25px;
     vertical-align: middle;
     margin-right: 18px;
-    transition:  opacity 0.15s;
+    transition:  opacity 0.15s hover 2s;
 }
 
 img:hover{
     opacity: 0.8;
-    width: 30px;
 }
 
 img:active{
@@ -75,6 +74,11 @@ li{
 
 .content{
     font-size: 13px;
+}
+
+.content:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .email{
@@ -113,9 +117,8 @@ li{
     background-color: #0D0840;
     font-size: 12px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    place-content: space-between;
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -124,13 +127,17 @@ span{
     margin-right: 10px;
 }
 
+.us{
+    margin-left: 8px;
+}
+
 a{
     color: #CFCEDC;
     text-decoration: none;
 }
 
 a:hover{
-    font-size: 13px;
+    text-decoration: underline;
 }
 
 a:active{
@@ -173,8 +180,8 @@ a:active{
                                             grid-area: five;
                                         }
                                         .last{
-                                            padding-right: 90px;
-                                            padding-left: 90px;
+                                            padding-right: 20px;
+                                            padding-left: 20px;
                                         }
                                 
                                 }
@@ -216,8 +223,8 @@ a:active{
                                                     grid-area: five;
                                                 }
                                                 .last{
-                                                    padding-right: 90px;
-                                                    padding-left: 90px;
+                                                    padding-right: 20px;
+                                                    padding-left: 20px;
                                                 }
                                         
                                         }
@@ -261,8 +268,8 @@ a:active{
                                                 }
 
                                                 .last{
-                                                    padding-right: 90px;
-                                                    padding-left: 90px;
+                                                    padding-right: 20px;
+                                                    padding-left: 20px;
                                                 }
                                             
                                         }
@@ -303,7 +310,8 @@ a:active{
                                                 grid-area: five;
                                             }
                                             .last{
-                                                display: none;
+                                                padding-right: 20px;
+                                                padding-left: 20px;
                                             }
                                         
                                     }
@@ -348,7 +356,8 @@ a:active{
                                         padding-left: 50px;
                                     }
                                     .last{
-                                        display: none;
+                                        padding-right: 10px;
+                                        padding-left: 30px;
                                     }
                                 }
                                    
