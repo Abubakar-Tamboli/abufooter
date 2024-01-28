@@ -17,11 +17,6 @@ Welcome to the repository for my fantastic webpage! This project showcases a web
 - HTML
 - CSS
 
-## Getting Started
+## Author
 
-To view the webpage locally, follow these steps:
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/Abubakar-Tamboli/abufooter.git
+- Website - [Abubakar Tamboli](https://github.com/Abubakar-Tamboli)
