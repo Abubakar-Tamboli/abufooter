@@ -4,14 +4,6 @@ Welcome to the repository for my fantastic webpage! This project showcases a web
 
 ![Website Screenshot](https://github.com/Abubakar-Tamboli/abufooter/blob/main/images/abu-footer.png)
 
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - **Flexbox and CSS Grid**: The webpage layout is crafted using both Flexbox and CSS Grid, providing a dynamic and responsive design.
