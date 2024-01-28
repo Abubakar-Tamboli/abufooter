@@ -1,4 +1,4 @@
-# My Webpage of footer
+# My Awesome Webpage of footer
 
 Welcome to the repository for my fantastic webpage! This project showcases a website created using HTML and CSS, featuring advanced layout techniques such as Flexbox and CSS Grid. Additionally, pseudo-classes and HTML semantics have been employed for a more robust and semantic structure.
 
